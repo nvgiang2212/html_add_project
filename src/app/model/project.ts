@@ -1,6 +1,6 @@
 export interface Project {
-  taskId: number;
-  userId: number;
+  tasks: Task[];
+  title: string;
   status: boolean;
-  deadline: Date;
+  content: string;
 }
