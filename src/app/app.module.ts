@@ -10,6 +10,8 @@ import { ProjectManagerComponent } from './component/project-manager/project-man
 import { TaskManagerComponent } from './component/task-manager/task-manager.component';
 import { UserLoginComponent } from './component/user-login/user-login.component';
 import { UserRegisterComponent } from './component/user-register/user-register.component';
+import {ReactiveFormsModule} from '@angular/forms';
+import {MDBBootstrapModule} from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { UserRegisterComponent } from './component/user-register/user-register.c
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    MDBBootstrapModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
